@@ -1,0 +1,245 @@
+{
+  "products": [
+    {
+      "id": "809d",
+      "title": "Yeni Cupra Leon 2025",
+      "description": "1.5 eTSI (mHEV) 150 PS DSG VZ-Line",
+      "imageUrl": "https://image5.sahibinden.com/staticContent/vehicleStockImagesV2/0034/616e84/x_640_360_11400000034-7dd3872538e5d9a749dc20cfb37a0c06.jpg",
+      "price": 2255000,
+      "categoryId": "4"
+    },
+    {
+      "id": "bfb4",
+      "title": "Yeni Golf GTI 2025",
+      "description": "Yeni Golf GTI 2.0 TSI",
+      "imageUrl": "https://assets.volkswagen.com/is/image/volkswagenag/1920x1080_galeri_gorseli_v3?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTE5MjAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNzgwOQ==",
+      "price": 3766000,
+      "categoryId": "4"
+    },
+    {
+      "id": "1209",
+      "title": "MacBook Pro 14 inc M4",
+      "description": "MacBook Pro 14 inc M4 10CPU 10GPU 16GB 512GB Gümüş MW2W3TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/11/MacBook_Pro_14-inch_M4_Gumus_2-scaled.jpg?zoom=2&resize=247%2C296&quality=89&ssl=1",
+      "price": 70000,
+      "categoryId": "1"
+    },
+    {
+      "id": "fdd4",
+      "title": "iMac 24 inc 4.5K M4",
+      "description": "iMac 24 inc 4.5K M4 8CPU 8GPU 16GB 256GB Gümüş MWUC3TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/11/iMac_M4_Gumus_1-scaled-1.jpg?resize=1536%2C1536&quality=89&ssl=1",
+      "price": 60000,
+      "categoryId": "1"
+    },
+    {
+      "id": "a9f2",
+      "title": "Mac mini M4 ",
+      "description": "Mac mini M4 10CPU 10GPU 16GB 512GB MU9E3TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/11/Mac_mini_M4_1-scaled-1.jpg?resize=1536%2C1536&quality=89&ssl=1",
+      "price": 39000,
+      "categoryId": "1"
+    },
+    {
+      "id": "527b",
+      "title": "iPhone 16 Pro 128GB Beyaz",
+      "description": "iPhone 16 Pro 128GB Beyaz Titanyum MYNE3TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/09/iPhone_16_Pro_White_Titanium_PDP_Image_Position_1__tr-TR.webp?w=1536&quality=80&ssl=1",
+      "price": 87000,
+      "categoryId": "2"
+    },
+    {
+      "id": "b03e",
+      "title": "iPhone 16 Pro Max 512GB Çöl Titanyum",
+      "description": "iPhone 16 Pro Max 512GB Çöl Titanyum MYX23TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/09/iPhone_16_Pro_Max_Desert_Titanium_PDP_Image_Position_1__tr-TR.webp?w=1536&quality=80&ssl=1",
+      "price": 130000,
+      "categoryId": "2"
+    },
+    {
+      "id": "1769",
+      "title": "SAMSUNG Çamaşır Makinesi Siyah",
+      "description": "SAMSUNG WW11BBA046ABAH AEnerji Sınıfı 11kg 1400 Devir Çamaşır Makinesi Siyah",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97241433?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 30000,
+      "categoryId": "3"
+    },
+    {
+      "id": "d3f0",
+      "title": "SAMSUNG Kurutma Makinesi Beyaz",
+      "description": "SAMSUNG DV90CGC0A0AEAH A++ Enerji Sınıfı 9kg Isı Pompalı Kurutma Makinesi Beyaz",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_134015215?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 28000,
+      "categoryId": "3"
+    },
+    {
+      "id": "aa55",
+      "title": "SAMSUNG Üstten Donduruculu Buzdolabı",
+      "description": "SAMSUNG RT47CG6636S9TR E Enerji Sınıfı 465 litre Üstten Donduruculu Buzdolabı",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_141419216?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 37000,
+      "categoryId": "3"
+    },
+    {
+      "id": "d4f4",
+      "title": " MacBook Air 13.3 inc M1 ",
+      "description": " MacBook Air 13.3 inc M1 8CPU 7GPU 8GB 256GB Uzay Grisi MGN63TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/08/MacBook_Air_UzayGrisi.webp?w=500&quality=80&ssl=1",
+      "price": 35000,
+      "categoryId": "1"
+    },
+    {
+      "id": "25b5",
+      "title": "MacBook Air 15.3 inc M2 ",
+      "description": "MacBook Air 15.3 inc M2 8CPU 10GPU 8GB 512GB Yıldız Işığı MQKV3TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/06/rpNZa7C3h2s5KzldYMBP3Eyhwy17y56YJEINLULJ.webp?resize=1536%2C1536&quality=80&ssl=1",
+      "price": 52000,
+      "categoryId": "1"
+    },
+    {
+      "id": "2fb3",
+      "title": "MacBook Pro 16 inc M4 Max",
+      "description": "MacBook Pro 16 inc M4 Max 14CPU 32GPU 36GB 1TB Uzay Siyahı MX303TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/11/MacBook_Pro_16-inch_M4_Pro_or_Max_Uzay_Siyahi_1-scaled-1.jpg?resize=1536%2C1536&quality=89&ssl=1",
+      "price": 180000,
+      "categoryId": "1"
+    },
+    {
+      "id": "22d6",
+      "title": "Mac Studio M3 Ultra",
+      "description": "Mac Studio M3 Ultra 28CPU 60GPU 96GB 1TB SSD MU973TU/A",
+      "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2025/03/Mac_Studio_M4-Max_M3-Ultra_2.jpg?resize=1536%2C1536&quality=89&ssl=1",
+      "price": 260000,
+      "categoryId": "1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Bilgisayar"
+    },
+    {
+      "id": "2",
+      "name": "Telefon"
+    },
+    {
+      "id": "3",
+      "name": "Beyaz Eşya"
+    },
+    {
+      "id": "4",
+      "name": "Araba"
+    }
+  ],
+  "shopping-cart": [],
+  "orders": [
+    {
+      "id": "f50a",
+      "orderNumber": 1748011488970,
+      "products": [
+        {
+          "id": "a9f2",
+          "title": "Mac mini M4 ",
+          "description": "Mac mini M4 10CPU 10GPU 16GB 512GB MU9E3TU/A",
+          "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/11/Mac_mini_M4_1-scaled-1.jpg?resize=1536%2C1536&quality=89&ssl=1",
+          "price": 39000,
+          "categoryId": "1",
+          "count": 1
+        },
+        {
+          "id": "fdd4",
+          "title": "iMac 24 inc 4.5K M4",
+          "description": "iMac 24 inc 4.5K M4 8CPU 8GPU 16GB 256GB Gümüş MWUC3TU/A",
+          "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/11/iMac_M4_Gumus_1-scaled-1.jpg?resize=1536%2C1536&quality=89&ssl=1",
+          "price": 60000,
+          "categoryId": "1",
+          "count": 2
+        }
+      ],
+      "address": "Pendik",
+      "totalPrice": 159000,
+      "cardInfo": {
+        "cardName": "Emre Tutal",
+        "cardNumber": "5412 3123 1231 2312",
+        "cardMonth": "04",
+        "cardYear": 2028,
+        "cardCvv": "123"
+      }
+    },
+    {
+      "id": "3102",
+      "orderNumber": 1748026333154,
+      "products": [
+        {
+          "id": "809d",
+          "title": "Yeni Cupra Leon 2025",
+          "description": "1.5 eTSI (mHEV) 150 PS DSG VZ-Line",
+          "imageUrl": "https://image5.sahibinden.com/staticContent/vehicleStockImagesV2/0034/616e84/x_640_360_11400000034-7dd3872538e5d9a749dc20cfb37a0c06.jpg",
+          "price": 2255000,
+          "categoryId": "4",
+          "count": 1
+        },
+        {
+          "id": "527b",
+          "title": "iPhone 16 Pro 128GB Beyaz",
+          "description": "iPhone 16 Pro 128GB Beyaz Titanyum MYNE3TU/A",
+          "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/09/iPhone_16_Pro_White_Titanium_PDP_Image_Position_1__tr-TR.webp?w=1536&quality=80&ssl=1",
+          "price": 87000,
+          "categoryId": "2",
+          "count": 1
+        },
+        {
+          "id": "aa55",
+          "title": "SAMSUNG Üstten Donduruculu Buzdolabı",
+          "description": "SAMSUNG RT47CG6636S9TR E Enerji Sınıfı 465 litre Üstten Donduruculu Buzdolabı",
+          "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_141419216?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+          "price": 37000,
+          "categoryId": "3",
+          "count": 1
+        }
+      ],
+      "address": "Fevzi Çakmak Mah. Ereğli Sok. No: 12 Daire: 12",
+      "totalPrice": 2379000,
+      "cardInfo": {
+        "cardName": "Emre Tutal",
+        "cardNumber": "5231 5222 4566 7223",
+        "cardMonth": "04",
+        "cardYear": 2029,
+        "cardCvv": "859"
+      }
+    },
+    {
+      "id": "5355",
+      "orderNumber": 1748026977303,
+      "products": [
+        {
+          "id": "a9f2",
+          "title": "Mac mini M4 ",
+          "description": "Mac mini M4 10CPU 10GPU 16GB 512GB MU9E3TU/A",
+          "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/11/Mac_mini_M4_1-scaled-1.jpg?resize=1536%2C1536&quality=89&ssl=1",
+          "price": 39000,
+          "categoryId": "1",
+          "count": 2
+        },
+        {
+          "id": "2fb3",
+          "title": "MacBook Pro 16 inc M4 Max",
+          "description": "MacBook Pro 16 inc M4 Max 14CPU 32GPU 36GB 1TB Uzay Siyahı MX303TU/A",
+          "imageUrl": "https://i0.wp.com/www.pt.com.tr/wp-content/uploads/2024/11/MacBook_Pro_16-inch_M4_Pro_or_Max_Uzay_Siyahi_1-scaled-1.jpg?resize=1536%2C1536&quality=89&ssl=1",
+          "price": 180000,
+          "categoryId": "1",
+          "count": 1
+        }
+      ],
+      "address": "General Ali Mah. Cemil Sk. No: 20 Daire: 5",
+      "totalPrice": 258000,
+      "cardInfo": {
+        "cardName": "Umut Bey",
+        "cardNumber": "4212 5282 8289 2918",
+        "cardMonth": "05",
+        "cardYear": 2029,
+        "cardCvv": "619"
+      }
+    }
+  ]
+}
