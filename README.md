@@ -21,3 +21,6 @@ npm run dev
 ```
 
 Proje lokalde ayağa kalktığında [http://localhost:5173](http://localhost:5173) tarayıcınızda bu adresi açınız.
+
+## Projeyi incelemek için demo adresi
+[https://ecommerce-final-liart.vercel.app](https://ecommerce-final-liart.vercel.app)
