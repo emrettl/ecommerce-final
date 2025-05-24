@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import api from "../api";
 import { formattedPrice } from "../helpers.js";
 
 export default {
@@ -59,8 +59,8 @@ export default {
   },
   created() {
     const orderNumber = this.$route.params.orderNumber;
-    axios
-        .get(`http://localhost:4000/orders?orderNumber=${orderNumber}`)
+    api
+        .get(`/orders?orderNumber=${orderNumber}`)
         .then((response) => {
           if (response.data.length > 0) {
             this.orderDetail = response.data;

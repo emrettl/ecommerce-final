@@ -1,7 +1,8 @@
 import { createStore } from "vuex";
-import axios from "axios";
 import Swal from 'sweetalert2'
 import router from "../router";
+
+import api from "../api";
 
 export default createStore({
   state: {
@@ -9,7 +10,6 @@ export default createStore({
     products: [],
     productDetail: [],
     shopping_cart: [],
-    baseUrl: "http://localhost:4000",
     activePage: 1,
     perPage: 6,
     cardInfo: {
@@ -62,8 +62,8 @@ export default createStore({
   },
   actions: {
     initCategories({ commit, state }) {
-      axios
-        .get(`${state.baseUrl}/categories`)
+      api
+        .get(`/categories`)
         .then((response) => {
           commit("setCategories", response.data);
         })
@@ -72,9 +72,9 @@ export default createStore({
     initProducts({ commit, state }) {
       const startIndex = (state.activePage - 1) * state.perPage;
 
-      axios
+      api
         .get(
-          `${state.baseUrl}/products?_start=${startIndex}&_limit=${state.perPage}`
+          `/products?_start=${startIndex}&_limit=${state.perPage}`
         )
         .then((response) => {
           commit("setProducts", response.data);
@@ -84,9 +84,9 @@ export default createStore({
     initFilterProducts({ commit, state }, categoryId) {
       const startIndex = (state.activePage - 1) * state.perPage;
 
-      axios
+      api
         .get(
-          `${state.baseUrl}/products?categoryId=${categoryId}&_start=${startIndex}&_limit=${state.perPage}`
+          `/products?categoryId=${categoryId}&_start=${startIndex}&_limit=${state.perPage}`
         )
         .then((response) => {
           commit("setProducts", response.data);
@@ -94,32 +94,32 @@ export default createStore({
         .catch((err) => console.log(err));
     },
     initProductDetail({ commit, state }, productId) {
-      axios
-        .get(`${state.baseUrl}/products?id=${productId}`)
+      api
+        .get(`/products?id=${productId}`)
         .then((response) => {
           commit("setProductDetail", response.data);
         })
         .catch((err) => console.log(err));
     },
     initShoppingCart({ commit, state }) {
-      axios
-        .get(`${state.baseUrl}/shopping-cart`)
+      api
+        .get(`/shopping-cart`)
         .then((response) => {
           commit("setShoppingCart", response.data);
         })
         .catch((err) => console.log(err));
     },
     saveProduct({ commit, state }, product) {
-      axios
-        .post(`${state.baseUrl}/products`, product)
+      api
+        .post(`/products`, product)
         .then((response) => {
           commit("saveProduct", response.data);
         })
         .catch((err) => console.log(err));
     },
     saveToCart({ commit, state }, product) {
-      axios
-        .post(`${state.baseUrl}/shopping-cart`, {
+      api
+        .post(`/shopping-cart`, {
           ...product,
           count: 1,
         })
@@ -129,8 +129,8 @@ export default createStore({
         .catch((err) => console.log(err));
     },
     removeFromCart({ commit, state }, productId) {
-      axios
-        .delete(`${state.baseUrl}/shopping-cart/${productId}`)
+      api
+        .delete(`/shopping-cart/${productId}`)
         .then((response) => {
           console.log(response);
           commit("removeFromCart", productId);
@@ -138,8 +138,8 @@ export default createStore({
         .catch((err) => console.log(err));
     },
     editCount({ commit, state }, product) {
-      axios
-        .put(`${state.baseUrl}/shopping-cart/${product.id}`, product)
+      api
+        .put(`/shopping-cart/${product.id}`, product)
         .then((response) => {
           commit("setCount", response.data);
         })
@@ -173,8 +173,8 @@ export default createStore({
         return;
       }
 
-      axios
-          .post(`${state.baseUrl}/orders`, product)
+      api
+          .post(`/orders`, product)
           .then((response) => {
             Swal.fire({
               title: "Siparişiniz Oluşturuldu",
@@ -190,8 +190,8 @@ export default createStore({
            })
     },
     trackOrder({ commit, state }, orderNumber) {
-      axios
-          .get(`${state.baseUrl}/orders?orderNumber=${orderNumber}`)
+      api
+          .get(`/orders?orderNumber=${orderNumber}`)
           .then((response) => {
             if (response.data.length > 0) {
               router.push(`/order-detail/${orderNumber}`);

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import api from "../api";
 import { mapGetters } from "vuex";
 import ProductCard from "../components/ProductCard.vue";
 import Pagination from "../components/Pagination.vue";
@@ -34,8 +34,8 @@ export default {
   },
   methods: {
     productLength() {
-      axios
-        .get(`http://localhost:4000/products?categoryId=${this.categoryId}`)
+      api
+        .get(`/products?categoryId=${this.categoryId}`)
         .then((response) => {
           this.length = response.data.length;
         })
